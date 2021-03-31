@@ -7,9 +7,6 @@ In this project, we address the computer vision task of semantic segmentation us
 ## Task 2
 
 
-
-
-
 ### Installation Requirements
 
 ```bash
@@ -69,7 +66,8 @@ tensorboard --logdir saved/runs/PSPNet/03-28_23-02
 
  ## Contributors
  
- This code was written for the Neural Networks: Theory and Implementation (NNTI) course at Saarland University for Winter Semester 2020-21. 
+ This code has been written for the Neural Networks: Theory and Implementation (NNTI) course project at Saarland University for Winter Semester 2020-21. Following 
+ are the contributors:
  
  - [Sohom Mukherjee](https://github.com/mukherjeesohom) (Student Number: 7010515)
  - [Shayari Bhattacharjee](https://github.com/shayari21) (Student Number: 7009998)

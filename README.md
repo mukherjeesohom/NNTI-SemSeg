@@ -1,5 +1,6 @@
 # NNTI-SemSeg
-NNTI Project: Semantic Segmentation using Deep Learning
+
+In this project, we address the computer vision task of semantic segmentation using deep learning-based approaches. In the first task, we train ENet architecture on the Pascal VOC 2012 dataset and obtain mean IoU of 27.75 \% on the validation set. For the second task and third tasks, we train R2Unet and PSPNet architectures on Cityscapes dataset respectively, and obtain mean IoU of 33.65 \% and 75.15 \% respectively, on the validation set.
 
 ## Task 1
 
@@ -66,4 +67,7 @@ tensorboard --logdir saved/runs/PSPNet/03-28_23-02
 | R2UNet 	|     -     	| [Google Drive](https://drive.google.com/file/d/1HBX-5yVPftpYgHuAf-ENTaVXUjfdMdLF/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1ADUbWKzv9tlsUy61JkcBYQUfLMJ_vfzX/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1Zx_LWMqLMirKPIEImUmcr-yuOJJbGZF_/view?usp=sharing) 	|
 | PSPNet 	| ResNet-50 	| [Google Drive](https://drive.google.com/file/d/1UuO3wCXNJMrTNxxHBpu8KlVLFpY6jNcJ/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/10hn50-K0fYHtL0lc-U1pgCNelp813lem/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1EPDJke8Dl7M4V7yEsrMwHiowOPexpY-a/view?usp=sharing) 	|
 
+ ## Contributors
  
+ - [Sohom Mukherjee](https://github.com/mukherjeesohom)
+ - [Shayari Bhattacharjee](https://github.com/shayari21)

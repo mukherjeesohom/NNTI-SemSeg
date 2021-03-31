@@ -77,18 +77,18 @@ Following parameters availble for inference:
 --extension    The extension of the images to segment (default: jpg).
 --images       Folder containing the images to segment.
 --model        Path to the trained model.
---mode         Mode to be used, choose either `multiscale` or `sliding` for inference (multiscale is the default behaviour).
+--mode         Mode for inference `multiscale` or `sliding`
 --config       The config file used for training the model.
 ```
 
 
 ### Results
 
-| Model  	| Backbone  	| Pretrained Weights                                                                                 	| Tensorboard                                                                                        	| Evaluation Metrics                                                                                 	|
-|--------	|-----------	|----------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------	|
-| ENet   	|     -     	| [Google Drive](https://drive.google.com/file/d/14EdSNK7C6-h8_Amvc4TrzTGUby5ANhyH/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1kPDkYR_RyF0SCklLI4Ipt1lXkHPFL6D3/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1xXSfXNWPhyCnLIqYWP5yhaToFrTKfl7l/view?usp=sharing) 	|
-| R2UNet 	|     -     	| [Google Drive](https://drive.google.com/file/d/1HBX-5yVPftpYgHuAf-ENTaVXUjfdMdLF/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1ADUbWKzv9tlsUy61JkcBYQUfLMJ_vfzX/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1Zx_LWMqLMirKPIEImUmcr-yuOJJbGZF_/view?usp=sharing) 	|
-| PSPNet 	| ResNet-50 	| [Google Drive](https://drive.google.com/file/d/1UuO3wCXNJMrTNxxHBpu8KlVLFpY6jNcJ/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/10hn50-K0fYHtL0lc-U1pgCNelp813lem/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1EPDJke8Dl7M4V7yEsrMwHiowOPexpY-a/view?usp=sharing) 	|
+| Model  	| Backbone  	| mIoU     	| Pretrained Weights                                                                                 	| Tensorboard                                                                                        	| Evaluation Metrics                                                                                 	|
+|--------	|-----------	|----------	|----------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------	|----------------------------------------------------------------------------------------------------	|
+| ENet   	|     -     	| 27.75 \% 	| [Google Drive](https://drive.google.com/file/d/14EdSNK7C6-h8_Amvc4TrzTGUby5ANhyH/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1kPDkYR_RyF0SCklLI4Ipt1lXkHPFL6D3/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1xXSfXNWPhyCnLIqYWP5yhaToFrTKfl7l/view?usp=sharing) 	|
+| R2UNet 	|     -     	| 33.65 \% 	| [Google Drive](https://drive.google.com/file/d/1HBX-5yVPftpYgHuAf-ENTaVXUjfdMdLF/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1ADUbWKzv9tlsUy61JkcBYQUfLMJ_vfzX/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1Zx_LWMqLMirKPIEImUmcr-yuOJJbGZF_/view?usp=sharing) 	|
+| PSPNet 	| ResNet-50 	| 75.15 \% 	| [Google Drive](https://drive.google.com/file/d/1UuO3wCXNJMrTNxxHBpu8KlVLFpY6jNcJ/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/10hn50-K0fYHtL0lc-U1pgCNelp813lem/view?usp=sharing) 	| [Google Drive](https://drive.google.com/file/d/1EPDJke8Dl7M4V7yEsrMwHiowOPexpY-a/view?usp=sharing) 	|
 
  ## Contributors
  

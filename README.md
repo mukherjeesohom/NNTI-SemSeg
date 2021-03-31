@@ -44,17 +44,37 @@ pytorch-template/
     └── lr_scheduler - learning rate schedulers 
 ```
   
+### Datasets
+
+
 ### Training
+
+For training, we download the dataset and place in the directory structure outlined above. Then we choose the desired architecture
+and training hyperparameters and the correct path to the dataset directory in the `config.json` file. Following is an example command
+we run for training:
   
 ```bash
 python train.py --config ./config-files/config_pspnet_cityscapes.json
 ```
   
 ### Inference
+
+For inference, we need a trained PyTorch model, test images, and the config file used for training:
   
 ```bash
 tensorboard --logdir saved/runs/PSPNet/03-28_23-02
 ```
+
+Following parameters availble for inference:
+```
+--output       The folder where the results will be saved (default: outputs).
+--extension    The extension of the images to segment (default: jpg).
+--images       Folder containing the images to segment.
+--model        Path to the trained model.
+--mode         Mode to be used, choose either `multiscale` or `sliding` for inference (multiscale is the default behaviour).
+--config       The config file used for training the model.
+```
+
 
 ### Results
 

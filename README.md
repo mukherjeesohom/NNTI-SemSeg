@@ -4,8 +4,9 @@ In this project, we address the computer vision task of semantic segmentation us
 
 ## Task 1
 
-## Task 2 and Task 3
+The `ipynb` file for Task 1 can be found under `task-1`.We did not obtain desired plots for evaluations metrics as well as  proper visualizations for output segmentation maps in this `.ipynb` notebook.  So, we provide evaluation metrics and output segmentation maps using a  different dataloader (analogous to ones we used for Tasks 2 and 3) in our report. The code for ENet using this data loader can be found in the git repository under the folder `task-2-3`.
 
+## Task 2 and Task 3
 
 ### Installation Requirements
 

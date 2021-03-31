@@ -69,5 +69,7 @@ tensorboard --logdir saved/runs/PSPNet/03-28_23-02
 
  ## Contributors
  
- - [Sohom Mukherjee](https://github.com/mukherjeesohom)
- - [Shayari Bhattacharjee](https://github.com/shayari21)
+ This code was written for the Neural Networks: Theory and Implementation (NNTI) course at Saarland University for Winter Semester 2020-21. 
+ 
+ - [Sohom Mukherjee](https://github.com/mukherjeesohom) (Student Number: 7010515)
+ - [Shayari Bhattacharjee](https://github.com/shayari21) (Student Number: 7009998)

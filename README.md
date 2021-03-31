@@ -4,7 +4,7 @@ In this project, we address the computer vision task of semantic segmentation us
 
 ## Task 1
 
-## Task 2
+## Task 2 and Task 3
 
 
 ### Installation Requirements

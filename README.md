@@ -56,13 +56,19 @@ we run for training:
 ```bash
 python train.py --config ./config-files/config_pspnet_cityscapes.json
 ```
+The TensorBoard log files will be saved in `saved/runs` and the `.pth` model chekpoints in `saved/`. 
+We can monitor the training using TensorBoard by running:
+
+```bash
+tensorboard --logdir saved/runs/PSPNet/03-28_23-02
+```
   
 ### Inference
 
 For inference, we need a trained PyTorch model, test images, and the config file used for training:
-  
+
 ```bash
-tensorboard --logdir saved/runs/PSPNet/03-28_23-02
+python inference.py --config config.json --model best_model.pth --images images_folder
 ```
 
 Following parameters availble for inference:
